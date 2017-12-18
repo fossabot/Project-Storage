@@ -1,0 +1,20 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase experimental:functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "firebase-admin": "5.5.1",
+    "firebase-functions": "0.7.3",
+	"paypal-rest-sdk" : "1.8.1",
+	"buffer-crc32" : "0.2.13",
+	"semver" : "5.4.1"
+	
+  },
+  "private": true
+}
